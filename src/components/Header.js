@@ -3,7 +3,6 @@ import { Link, withRouter } from 'react-router-dom';
 
 function Header(props) {
   const { path } = props.match;
-  console.log("MATCH", props.location.pathname)
   return (
     <div className="header">
       <Link to="/">
